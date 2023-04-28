@@ -1,0 +1,29 @@
+article{
+    margin: auto;
+    max-width: 310px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.tarolo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+}
+
+.tarolo:hover{
+    background-color: cadetblue;
+    
+}
+
+
+.tarolo p{
+    text-align: center;
+    margin: auto;
+}
